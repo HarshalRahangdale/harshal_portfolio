@@ -4,16 +4,186 @@
 	<title>harshal_portfolio</title>
 	<link rel="icon" type="image/png" href="https://jpg.pngtree.com/png-clipart/20190924/original/pngtree-portfolio-icon-in-trendy-style-isolated-background-png-image_4819115.jpg">
 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
+	<link rel="stylesheet" type="text/css" href="style.css">
 	
-
-
 </head>
 <body>
- <h1>Harshal </h1>
-</body>
+
+	<!-- nav bar starts here -->
+ 	<div class="navigation-bar">
+ 		<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#"><span class="brand tracking-in-expand-fwd">Harshal</span> </a>
+      </li>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home"><span class="navmenu">Home</span> <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about"><span class="navmenu">About</span> </a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#skills"><span class="navmenu">Skills</span></a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#project"><span class="navmenu">Project</span></a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#contact"><span class="navmenu">Contacts</span></a>
+      </li>
+    </ul>
+   
+  </div>
+</nav>
+ 	</div>
+<!-- nav bar ends here -->
+
+ 	<div class=main-container>
+ 		<section id="home" class="portfolio-sections">
+ 		<div class="home-info">
+ 		<span class="info">Hi</span><br>
+ 		<span class="info">My name is </span><br>
+ 		<span class="brand myname">HARSHAL RAHANGDALE</span><br>
+ 		<span class="info">2024 Batch <span class ="designation">Engineering Graduate</span></span>
+ 		<br/>
+ 		<button class="rsmbtn"><a href="C:\Users\ASUS VIVOBOOK 15\OneDrive\Desktop\Documents\Harshal docs\Harshal_Satyawan Rahangdale_Resume.pdf">RESUME</a>
+      
+    </button>
+ 	</div>
+ 	</section>
+
+
+	<section id="about" class="portfolio-sections about-section">
+ 		<div class="aboutmain">
+ 			<div class="myimage">
+ 				<img class="developer" src="C:\Users\ASUS VIVOBOOK 15\OneDrive\Desktop\Documents\Harshal docs\Harshal photo.jpeg" height="500px" width="400px">
+ 			</div>
+ 			<div class="careerobj">
+ 				<h1 class="heading">ABOUT</h1>
+ 				<p class="careerinfo">
+ 					Seeking the job role of Full Stack Developer wherein I can apply my knowledge & experience gained from past projects while working on new challenges & tasks assigned by the team leader or supervisor.
+ 				</p>
+        <p class="careerinfo">
+        Currently Pursuing my Bachelor's in Computer Science and Engineering Stream from Jhulelal Institute OF Technology.</p>
+ 			</div>
+ 		</div>
+ 	</section>
+
+
+
+ <section id="skills" class="portfolio-sections skill-section">
+    <h1 class="heading">SKILLS</h1>
+    <table class="tbl" height="400px" width="90%">
+      <tr align="center" valign="top">
+        <div class="borderskills">
+          <td  width="30%" data-aos="slide-right">
+            <h2 class="skills-subheading">Languages</h2>
+            <p class="detailedSkills">
+              Core Java<br>C<br> C++<br>HTML<br> CSS
+            </p>
+          </td>
+          <td  width="30%"data-aos="slide-right"><h2 class="skills-subheading">Tools</h2>
+              <p class="detailedSkills">
+                VS Code<br>Eclipse IDE<br> Git<br> Github<br> EditPlus
+              </p>
+              </td>
+              <td  width="30%"data-aos="slide-left"><h2 class="skills-subheading">Operating Systems</h2>
+                <p class="detailedSkills">
+                  Windows<br> Android
+                </p>
+              </td>
+          
+          </tr>
+        </div>
+        </table>
+  </section>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration:2000
+    });
+  </script>
+
+
+  <section id="project" class="portfolio-sections">
+      <h1 class="heading">PROJECT</h1>
+      <div class="project-card-container">
+        <div class="card-group">
+          <div class="card">
+            <img class="card-image" src="https://miro.medium.com/v2/resize:fit:1000/1*dvoupKdkVdBLfbYf0i4bkw.png" alt="..." width="400">
+            <div class="card-body">
+              <h5 class="card-title">Library Management System</h5>
+              <p class="card-text">The purpose of a library management system is to manage & track the daily work of the library such as issuing books, return books, due calculations, etc.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="card-image" src="https://i0.wp.com/ssjerie.org/wp-content/uploads/2017/12/transparent-red-no-circle-hi.jpg?fit=600%2C593&ssl=1" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Human Trafficking Victims Application</h5>
+                <p class="card-text">The ultimate goal of this project is to provide law enforcement and other organizations with a powerful tool that can help identify victims of human trafficking.</p>
+              </div>
+          </div>
+
+          <div class="card">
+            <img class="card-image" src="https://www.martechcube.com/wp-content/uploads/2023/09/IBC-2023-1024x576.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hologram Based AI</h5>
+              <p class="card-text">Aims to make using computers more fun and natural. Right now, when we use computers, we stare at screens and type on keyboards or touch screens. But that's not always the most engaging or easy way to interact with technology.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <section id="contact" class="portfolio-sections">
+      <h1 class="heading">CONTACT</h1>
+      <div class="contact-container">
+        <div class="contact-child">
+          <ul class="contact-info" type="square">
+            <h3><b>Connect With Me</b></h3>
+            <li> <a href="#">harshalrahangdale0307@gmail.com</a> </li>
+            <li> <a href="#">9370822854</a> </li>
+            <li> <a href="https://github.com/HarshalRahangdale">Github</a> </li>
+            <li> <a href="http://www.linkedin.com/in/harshal-rahangdale-34976121b">Linkedin</a> </li>
+            <li> <a href="#">Pune, Maharashtra</a> </li>
+          </ul>
+        </div>
+        <div class="contact-child contact-form">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail">Email Addresss</label>
+              <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" name="">
+            </div>
+            <div class="form-group">
+              <label class="exampleInputPassword1">Comment</label>
+              <textarea class="form-control" id="exampleInputPassword1"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <h1 id="footerinfo">MADE BY HARSHAL</h1>
+    </section>
+
+
+
+
+
+ </body>
 </html>
